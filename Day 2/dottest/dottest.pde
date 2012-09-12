@@ -1,5 +1,5 @@
 int sW = 640;
-int sH = 480;
+int sH = 360;
 int fps = 24;
 int counter=0;
 
