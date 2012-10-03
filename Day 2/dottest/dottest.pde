@@ -1,5 +1,7 @@
 int sW = 640;
 int sH = 360;
+int dW = 1920;
+int dH = 1080;
 int fps = 24;
 int counter=0;
 
@@ -32,7 +34,9 @@ void draw(){
   strokeWeight(20);
   stroke(255,0,0);
   point(p.x,p.y);
-  data.add("\t"+counter+"\t" + p.x + "\t" + p.y + "\t" + 0);
+  if(p.x !=0 && p.y !=0){
+    data.add("\t"+counter+"\t" + ((p.x/sW)*dW) + "\t" + ((p.y/sH)*dH) + "\t" + 0);
+  }
   counter++;
 }
 
