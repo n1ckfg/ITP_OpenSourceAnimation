@@ -91,7 +91,7 @@ class Particle {
 
   void draw() {
     pushMatrix();
-    translate(p.x, p.y);
+    translate(p.x, p.y,p.z);
     rotateXYZ(r.x, r.y, r.z);
     scale(s.x, s.y);
     imageMode(CENTER);
