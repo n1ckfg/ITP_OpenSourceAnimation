@@ -8,6 +8,8 @@ int dH = 1080;
 int numParticles = 10;
 Particle[] particle = new Particle[numParticles];
 
+boolean recordFrames = false;
+
 void setup(){
   size(sW,sH,P3D);
   frameRate(fps);
@@ -20,6 +22,7 @@ void draw(){
   for(int i=0;i<numParticles;i++){
     particle[i].run();
   }
+  if(recordFrames) saveFrame("frames/frame"+frameCount+".png");
  }else{
     AEkeysMain();
     exit();

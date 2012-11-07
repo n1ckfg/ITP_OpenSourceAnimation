@@ -17,7 +17,7 @@ class Particle{
     if(hitDetect(p.x,p.y,5,5,t.x,t.y,5,5)){
       t = new PVector(random(sW),random(sH),random(sD)-(sD/2));
     }
-    AEpath[frameCount] = new PVector((p.x/sW)*dW,(p.y/sH)*dH); 
+    AEpath[frameCount-1] = new PVector((p.x/sW)*dW,(p.y/sH)*dH); 
   }
   
   void drawParticle(){

@@ -72,7 +72,7 @@ void AEkeyRot(int spriteNum, int frameNum){
      if(frameNum%smoothNum==0||frameNum==0||frameNum==counterMax-1){
       dataAE.add("\t\t" + "r.setValueAtTime(" + AEkeyTime(frameNum) + ", " + centerNum +");" + "\r");
      }
-     
+     */
 }
 
 void AEeffects(){
