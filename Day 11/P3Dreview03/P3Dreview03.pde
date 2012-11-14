@@ -64,4 +64,5 @@ uv[0] = new PVector(p.x-(s.x/2),p.y-(s.y/2));
 uv[1] = new PVector(p.x+(s.x/2),p.y-(s.y/2));
 uv[2] = new PVector(p.x+(s.x/2),p.y+(s.y/2));
 uv[3] = new PVector(p.x-(s.x/2),p.y+(s.y/2));
+println("("+uv[0].x + ", " + uv[0].y+"), " + "("+uv[1].x + ", " + uv[1].y+"), " + "("+uv[2].x + ", " + uv[2].y+"), " + "("+uv[3].x + ", " + uv[3].y+")"); 
 }
