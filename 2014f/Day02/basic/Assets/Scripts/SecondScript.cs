@@ -26,18 +26,8 @@ public class SecondScript : MonoBehaviour {
 			for(int i=0;i<cubes.Length;i++){
 				Vector3 p = cubes[i].transform.position;
 				p = tween3D(p, target.transform.position, new Vector3(ease,ease,ease));
-				transform.position = p;
+				cubes[i].transform.position = p;
 			}
-
-			/*
-			r = transform.rotation.eulerAngles;
-			r.x += xDelta;
-			transform.rotation = Quaternion.Euler(r);
-
-			s = transform.localScale;
-			s.x += xDelta;
-			transform.localScale = s;
-			*/
 		}
 	}
 
