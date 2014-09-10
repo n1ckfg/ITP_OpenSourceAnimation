@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\FirstScript.cs" />
      <Compile Include="Assets\Scripts\SecondScript.cs" />
+     <Compile Include="Assets\Scripts\ThirdScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
