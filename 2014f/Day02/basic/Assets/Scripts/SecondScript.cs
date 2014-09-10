@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FirstScript : MonoBehaviour {
+public class SecondScript : MonoBehaviour {
+
+	public GameObject[] cubes;
+	public GameObject target;
+
+	public float ease = 50;
 
 	public bool activate = false;
 
 	[HideInInspector]
 	public float xDelta = 5;
-
-	private Vector3 p, r, s;
 
 	// Use this for initialization
 	void Start () {
@@ -20,10 +23,13 @@ public class FirstScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.A)) activate = !activate;
 
 		if (activate) {
-			p = transform.position;
-			p.x += xDelta;
-			transform.position = p;
+			for(int i=0;i<cubes.Length;i++){
+				Vector3 p = cubes[i].transform.position;
+				p = tween3D(p, target.transform.position, new Vector3(ease,ease,ease));
+				transform.position = p;
+			}
 
+			/*
 			r = transform.rotation.eulerAngles;
 			r.x += xDelta;
 			transform.rotation = Quaternion.Euler(r);
@@ -31,6 +37,7 @@ public class FirstScript : MonoBehaviour {
 			s = transform.localScale;
 			s.x += xDelta;
 			transform.localScale = s;
+			*/
 		}
 	}
 
