@@ -8,8 +8,6 @@ public class FirstScript : MonoBehaviour {
 	[HideInInspector]
 	public float xDelta = 5;
 
-	private Vector3 p, r, s;
-
 	// Use this for initialization
 	void Start () {
 
@@ -20,15 +18,14 @@ public class FirstScript : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.A)) activate = !activate;
 
 		if (activate) {
-			p = transform.position;
+			Vector3 p = transform.position;
 			p.x += xDelta;
 			transform.position = p;
 
-			r = transform.rotation.eulerAngles;
-			r.x += xDelta;
-			transform.rotation = Quaternion.Euler(r);
+			Vector3 r = new Vector3(xDelta, 0f, 0f);
+			transform.Rotate(r);
 
-			s = transform.localScale;
+			Vector3 s = transform.localScale;
 			s.x += xDelta;
 			transform.localScale = s;
 		}
