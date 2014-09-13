@@ -1,6 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Desktop/basic/Assets/Scripts/NewBehaviourScript.cs">
+    <Files>
+      <File FileName="../../../../../../Desktop/basic/Assets/Scripts/NewBehaviourScript.cs" Line="14" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
