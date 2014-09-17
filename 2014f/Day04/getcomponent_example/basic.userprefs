@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Dropbox/_TOOLBOX/Unity/templates/basic/Assets/Models/Shake.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Models/Shake.cs">
     <Files>
-      <File FileName="../../../../../../Dropbox/_TOOLBOX/Unity/templates/basic/Assets/Models/Shake.cs" Line="17" Column="26" />
+      <File FileName="Assets/Models/Shake.cs" Line="17" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
