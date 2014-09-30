@@ -14,5 +14,6 @@ public class TestScript : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.A)) animator.SetTrigger("TriggerA");
 		if (Input.GetKeyDown(KeyCode.B)) animator.SetTrigger("TriggerB");
+		if (Input.GetKeyDown(KeyCode.C)) animator.SetTrigger("TriggerC");
 	}
 }
