@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 4cb65e59eaebe4c1aa01a2126d32d607
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: b_retopologized_zbrush:Group1
+    100004: joint1
+    100006: joint11
+    100008: joint12
+    100010: joint13
+    100012: joint15
+    100014: joint16
+    100016: joint17
+    100018: joint18
+    100020: joint19
+    100022: joint20
+    100024: joint21
+    100026: joint24
+    100028: joint25
+    100030: joint3
+    100032: joint4
+    100034: joint5
+    100036: joint6
+    100038: joint7
+    100040: joint8
+    100042: l_hip
+    100044: neck
+    100046: r_hip
+    100048: spine1
+    100050: spine2
+    100052: torso
+    400000: //RootNode
+    400002: b_retopologized_zbrush:Group1
+    400004: joint1
+    400006: joint11
+    400008: joint12
+    400010: joint13
+    400012: joint15
+    400014: joint16
+    400016: joint17
+    400018: joint18
+    400020: joint19
+    400022: joint20
+    400024: joint21
+    400026: joint24
+    400028: joint25
+    400030: joint3
+    400032: joint4
+    400034: joint5
+    400036: joint6
+    400038: joint7
+    400040: joint8
+    400042: l_hip
+    400044: neck
+    400046: r_hip
+    400048: spine1
+    400050: spine2
+    400052: torso
+    4300000: b_retopologized_zbrush:Group1
+    7400000: Wave
+    7400002: Kick
+    9500000: //RootNode
+    13700000: b_retopologized_zbrush:Group1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wave
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: b_retopologized_zbrush:Group1
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: torso/joint24
+        weight: 1
+      - path: torso/joint24/joint25
+        weight: 1
+      - path: torso/l_hip
+        weight: 1
+      - path: torso/l_hip/joint15
+        weight: 1
+      - path: torso/l_hip/joint15/joint16
+        weight: 1
+      - path: torso/l_hip/joint15/joint16/joint17
+        weight: 1
+      - path: torso/r_hip
+        weight: 1
+      - path: torso/r_hip/joint11
+        weight: 1
+      - path: torso/r_hip/joint11/joint12
+        weight: 1
+      - path: torso/r_hip/joint11/joint12/joint13
+        weight: 1
+      - path: torso/spine2
+        weight: 1
+      - path: torso/spine2/spine1
+        weight: 1
+      - path: torso/spine2/spine1/neck
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint18
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint18/joint19
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint20
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint20/joint21
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3/joint4
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3/joint4/joint5
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6/joint7
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6/joint7/joint8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Kick
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: b_retopologized_zbrush:Group1
+        weight: 1
+      - path: torso
+        weight: 1
+      - path: torso/joint24
+        weight: 1
+      - path: torso/joint24/joint25
+        weight: 1
+      - path: torso/l_hip
+        weight: 1
+      - path: torso/l_hip/joint15
+        weight: 1
+      - path: torso/l_hip/joint15/joint16
+        weight: 1
+      - path: torso/l_hip/joint15/joint16/joint17
+        weight: 1
+      - path: torso/r_hip
+        weight: 1
+      - path: torso/r_hip/joint11
+        weight: 1
+      - path: torso/r_hip/joint11/joint12
+        weight: 1
+      - path: torso/r_hip/joint11/joint12/joint13
+        weight: 1
+      - path: torso/spine2
+        weight: 1
+      - path: torso/spine2/spine1
+        weight: 1
+      - path: torso/spine2/spine1/neck
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint18
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint18/joint19
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint20
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint1/joint20/joint21
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3/joint4
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint3/joint4/joint5
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6/joint7
+        weight: 1
+      - path: torso/spine2/spine1/neck/joint6/joint7/joint8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
