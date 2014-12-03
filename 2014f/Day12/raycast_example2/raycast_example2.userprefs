@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Raycaster.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Day13/shadertoy_example/Assets/GLSL Shaders/Plasma.shader">
     <Files>
-      <File FileName="Assets/Scripts/Raycaster.cs" Line="51" Column="1" />
+      <File FileName="../../Day13/shadertoy_example/Assets/Shaders/ShadertoyTest.shader" Line="79" Column="40" />
+      <File FileName="../../Day13/shadertoy_example/Assets/GLSL Shaders/Plasma.shader" Line="41" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
