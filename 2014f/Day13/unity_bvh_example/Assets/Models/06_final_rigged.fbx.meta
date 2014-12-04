@@ -22,6 +22,23 @@ ModelImporter:
     100032: joint7
     100034: joint8
     100036: joint9
+    100038: head
+    100040: l_elbow
+    100042: l_foot
+    100044: l_hand
+    100046: l_hip
+    100048: l_knee
+    100050: l_shoulder
+    100052: l_toe
+    100054: neck
+    100056: r_elbow
+    100058: r_foot
+    100060: r_hand
+    100062: r_hip
+    100064: r_knee
+    100066: r_shoulder
+    100068: r_toe
+    100070: torso
     400000: //RootNode
     400002: b_retopologized_zbrush:Group1
     400004: joint1
@@ -41,8 +58,26 @@ ModelImporter:
     400032: joint7
     400034: joint8
     400036: joint9
+    400038: head
+    400040: l_elbow
+    400042: l_foot
+    400044: l_hand
+    400046: l_hip
+    400048: l_knee
+    400050: l_shoulder
+    400052: l_toe
+    400054: neck
+    400056: r_elbow
+    400058: r_foot
+    400060: r_hand
+    400062: r_hip
+    400064: r_knee
+    400066: r_shoulder
+    400068: r_toe
+    400070: torso
     4300000: b_retopologized_zbrush:Group1
     9500000: //RootNode
+    11100000: //RootNode
     13700000: b_retopologized_zbrush:Group1
   materials:
     importMaterials: 1
@@ -85,7 +120,7 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     human:
-    - boneName: joint1
+    - boneName: torso
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -93,7 +128,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint13
+    - boneName: l_hip
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -101,7 +136,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint7
+    - boneName: r_hip
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -109,7 +144,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint14
+    - boneName: l_knee
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -117,7 +152,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint8
+    - boneName: r_knee
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -125,7 +160,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint15
+    - boneName: l_foot
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -133,7 +168,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint9
+    - boneName: r_foot
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -141,7 +176,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint2
+    - boneName: neck
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -149,23 +184,15 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint10
-      humanName: LeftShoulder
+    - boneName: head
+      humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint4
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: joint11
+    - boneName: l_shoulder
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -173,7 +200,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint5
+    - boneName: r_shoulder
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -181,7 +208,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint12
+    - boneName: l_elbow
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -189,7 +216,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint6
+    - boneName: r_elbow
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -197,7 +224,23 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint17
+    - boneName: l_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_toe
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -205,16 +248,8 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint16
+    - boneName: r_toe
       humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: joint3
-      humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -232,87 +267,87 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint1
-      position: {x: -.00317026465, y: .374658376, z: -.120458953}
+    - name: torso
+      position: {x: -.00317026465, y: .374658376, z: -.0190774724}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint2
+    - name: neck
       position: {x: -.00910063181, y: .364025295, z: -.0346986577}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint3
+    - name: head
       position: {x: 1.32959688e-17, y: .233582884, z: .0623615198}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint4
+    - name: r_shoulder
       position: {x: .097073406, y: .00606708787, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint5
+    - name: r_elbow
       position: {x: .194146812, y: -.00303354394, z: -9.86076146e-33}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: 0, y: 0, z: .115180112, w: .993344665}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint6
+    - name: r_hand
       position: {x: .145610109, y: -.0455031618, z: -7.65545162e-19}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint10
+    - name: l_shoulder
       position: {x: -.0970731005, y: .00606734958, z: 0}
-      rotation: {x: 1, y: -0, z: 0, w: -6.12323426e-17}
+      rotation: {x: .999968708, y: -.00791465398, z: 4.84632817e-19, w: -6.12304302e-17}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint11
+    - name: l_elbow
       position: {x: -.194147006, y: .0191248637, z: -2.34212034e-18}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: 0, y: 2.10652826e-17, z: .172011077, w: .985095084}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint12
+    - name: l_hand
       position: {x: -.145610005, y: .0664211214, z: -7.36869612e-18}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint7
+    - name: r_hip
       position: {x: .133475944, y: -.0303354394, z: .0190774724}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint8
+    - name: r_knee
       position: {x: .0394360721, y: -.169878468, z: .00874726009}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -.0630782694, y: -.00302884053, z: -.000833818398, w: .998003662}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint9
+    - name: r_foot
       position: {x: .00727449451, y: -.127375513, z: -.0876238421}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: .0630782694, y: .00302884053, z: .000833818398, w: .998003662}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint16
+    - name: r_toe
       position: {x: .00777829904, y: -.00371817197, z: .142075047}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint13
+    - name: l_hip
       position: {x: -.133475736, y: -.030335376, z: .0190774724}
       rotation: {x: 1, y: -0, z: 0, w: -6.12323426e-17}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint14
+    - name: l_knee
       position: {x: -.0394360013, y: .169879004, z: -.00874726009}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint15
+    - name: l_foot
       position: {x: .00303300004, y: .153739348, z: .0578329526}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: joint17
+    - name: l_toe
       position: {x: -.00496700546, y: .000790442748, z: -.214974478}
       rotation: {x: 1, y: 0, z: -0, w: 6.12323426e-17}
       scale: {x: 1, y: 1, z: 1}

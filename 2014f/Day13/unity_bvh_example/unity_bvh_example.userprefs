@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../unity_bvh_example/Assets/Scripts/ChaseTarget.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChaseTarget.cs">
     <Files>
-      <File FileName="../unity_bvh_example/Assets/Scripts/ChaseTarget.cs" Line="68" Column="10" />
+      <File FileName="Assets/Scripts/ChaseTarget.cs" Line="68" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
