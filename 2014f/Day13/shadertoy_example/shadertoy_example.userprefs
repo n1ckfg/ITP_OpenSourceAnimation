@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/ShadertoyTest.shader">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../shadertoy_test/Assets/Shaders/StTest.shader">
     <Files>
-      <File FileName="../oculus_example_new_drivers/Assets/Scripts/Raycaster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Shaders/ShadertoyTest.shader" Line="59" Column="5" />
+      <File FileName="../../../../shadertoy_test/Assets/Shaders/StTest.shader" Line="15" Column="26" />
+      <File FileName="../../../../shadertoy_test/Assets/GLSL Shaders/PostProcessing.shader" Line="66" Column="14" />
+      <File FileName="../../../../shadertoy_test/Assets/GLSL Shaders/Plasma.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
