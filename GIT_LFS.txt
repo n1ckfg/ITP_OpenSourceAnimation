@@ -1,0 +1,5 @@
+This repo uses Git LFS ("Large File Storage").
+It's required to use files bigger than 100MB with GitHub. 
+
+To set up your system to use Git LFS, go here:
+https://git-lfs.github.com/
